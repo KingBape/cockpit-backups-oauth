@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <title>Cockpit Backups Rclone — Application personnelle de sauvegarde</title>
+  <style>
+    body{font:17px/1.65 system-ui,-apple-system,Segoe UI,sans-serif;max-width:760px;margin:8vh auto;padding:0 24px;color:#1a2633;background:#fafbfc}
+    h1{line-height:1.2;color:#12243b}a{color:#1261a0}header,footer{border-bottom:1px solid #dce3ec;padding-bottom:1rem}footer{border-bottom:0;border-top:1px solid #dce3ec;padding-top:1rem;margin-top:3rem;font-size:.9rem}
+  </style>
+</head>
+<body>
+<header><h1>Cockpit Backups Rclone</h1><p>Application personnelle de sauvegarde chiffrée — Google Drive / Rclone</p></header>
+<main>
+  <h2>Objet</h2>
+  <p>Cockpit Backups Rclone est une configuration personnelle de <a href="https://rclone.org/">Rclone</a> utilisée pour copier des sauvegardes chiffrées d'une base PostgreSQL locale vers le compte Google Drive autorisé par son propriétaire.</p>
+  <p>Cette application n'est ni un service public de stockage ni une interface de consultation des archives historiques. Le site que vous consultez ne contient aucune archive ni sauvegarde.</p>
+  <h2>Autorisations Google Drive</h2>
+  <p>L'application demande l'autorisation Google Drive <code>drive.file</code>, destinée aux fichiers créés ou expressément autorisés pour cette application. L'accès sert exclusivement aux opérations de sauvegarde, vérification et récupération demandées par le propriétaire du compte.</p>
+  <h2>Confidentialité</h2>
+  <p>Les archives de sauvegarde sont chiffrées localement via Rclone Crypt avant leur transfert. Le jeton d'authentification et les clés de chiffrement sont conservés localement et ne sont pas publiés sur ce site.</p>
+  <p>Consultez la <a href="./privacy.html">politique de confidentialité</a> pour les détails sur l'accès aux données et leur suppression.</p>
+</main>
+<footer><p>Application personnelle à usage privé. <a href="https://github.com/KingBape/cockpit-backups-oauth">Dépôt d'information</a>.</p></footer>
+</body>
+</html>
